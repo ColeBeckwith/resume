@@ -1,0 +1,152 @@
+* {
+    font-family: Garamond, Georgia, serif;
+}
+
+body {
+    min-width: 750px;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+div {
+    background-color: white;
+}
+
+a {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    position: fixed;
+    width: 104%;
+    min-width: 800px;
+    top: -4px;
+    left: -3px;
+    z-index: 1;
+    background-color: darkcyan;
+    color: white;
+}
+
+#number {
+    float: left;
+    width:32%;
+    text-align:center;
+    font-size: 1.3em;
+    margin-top: 26px;
+}
+
+#name {
+    float: left;
+    width:32%;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#email a {
+    float: left;
+    width:32%;
+    text-align:center;
+    font-size: 1.3em;
+    color: white;
+    margin-top: 10px;
+}
+
+#experience {
+    margin: auto;
+    border-radius: 19px;
+    border: 2px solid darkcyan;
+    margin-top: 90px;
+    padding: 0px 18px 0px 18px;
+    max-width: 750px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+div h2 {
+    text-align: center;
+    margin-bottom: -5px;
+    margin-top: 9px;
+}
+
+.job {
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.year {
+    float: right;
+    font-size: 1em;
+}
+
+.duties {
+    clear: both;
+    font-size: .8em;
+}
+
+#skills {
+    margin: auto;
+    border-radius: 19px;
+    border: 2px solid darkcyan;
+    margin-top: 20px;
+    padding: 0px 18px 0px 18px;
+    max-width: 750px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+#skills ul {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+#education {
+    margin: auto;
+    border-radius: 19px;
+    border: 2px solid darkcyan;
+    margin-top: 20px;
+    padding: 0px 18px 0px 18px;
+    max-width: 750px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+#education p {
+    margin-top: -3px;
+}
+
+
+.school {
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.graduation {
+    float: right;
+    font-size: 1em;
+}
+
+#longhorn {
+    width: 10em;
+    height: 7.5em;
+    opacity: .35;
+}
+
+.utlogo {
+    background: transparent;
+    text-align: center;
+}
