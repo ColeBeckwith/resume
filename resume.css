@@ -7,6 +7,14 @@ html {
     display: none;
 }
 
+h1 {
+    margin: 5px;
+}
+
+p {
+    font-size: 1em;
+}
+
 body {
     overflow-x: hidden;
     background-attachment: fixed;
@@ -47,7 +55,9 @@ h1 {
 }
 
 #email a {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-family: Casablanca;
+    letter-spacing: 1px;
     color: white;
 }
 
