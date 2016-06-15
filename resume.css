@@ -61,7 +61,6 @@ h1 {
     color: white;
 }
 
-
 .block {
     margin: auto;
     margin-top: 90px;
@@ -93,6 +92,10 @@ h1 {
 .button:hover {
     background-color: white;
     color: darkcyan;
+}
+
+.centered {
+    text-align: center;
 }
 
 h2 {
