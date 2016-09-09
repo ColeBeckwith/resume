@@ -99,12 +99,19 @@ h1 {
 }
 
 h2 {
-    padding: 10px, 0px, 5px, 0px;
+    padding: 10px, 0, 5px, 0;
     line-height: 12px;
 }
 
 .content{
     display: none;
+}
+
+.skills-list {
+    display: inline-block;
+    width: 31%;
+    height: 100%;
+    vertical-align: top;
 }
 
 .icon-minus-sign {
@@ -169,4 +176,24 @@ div h2 {
     background: transparent;
     text-align: center;
     clear: both;
+}
+
+.peek-image {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.peek-image-container {
+    margin: 20px auto;
+    padding: 5px;
+    height: 140px;
+    width: 255px;
+    transition: width .5s, height .5s;
+    border: 2px solid darkcyan;
+}
+
+.peek-image-container:hover {
+    height: 280px;
+    width: 504px;
 }
